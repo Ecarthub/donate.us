@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html style="background: #CB6CE6">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Montserrat+Alternates:wght@500&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="web.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>DonateUs</title>
+</head>
+<body>
+	<nav class="navbar" id="navbar">
+	<div class="navdiv">
+		<div class="logo"><a href="#"><span style="color: 	#008000"> Donate</span>Us</div>
+
+	<ul>
+		<li><a href="#" class="active" id="h" onclick="h()">Home</a></li>
+		<li><a href="#mes" id="ab" onclick="ab()">AboutUs</a></li>
+		<li><a href="#foot" onclick="cu()" id="cu">ContactUs</a></li>
+		<li><a href="#" onclick="d()" id="donate">Donate</a></li>
+</ul>
+	</div>
+</nav>
+	<div class="bgc">
+
+
+</div>
+<div class="mes" id="mes">
+	<div class="row">
+
+
+		<div class="column">
+			<h3 id="about">AboutUs</h3>
+<section>
+	<p>1/ This is really safe or not? This is 100% safe because this is powered by firebase</p>
+		<p>2/ this is legit or not like kind of scam? Yes of course this is legit not scam </p>
+</section>
+		</div>
+				<div class="column">
+			<h3>Goal</h3>
+<section>
+	<p>1/ The goal of this website is to gather any amount of money to sucessfully transplant a kidney, we appreciate your help / Thank you very much </p>
+</section>
+<section>
+		<p>2/ To help my step-mother</p>
+
+		</section>
+</section>
+		</div>
+				<div class="column">
+			<h3 > The Reason Why I Build This</h3>
+<section>
+<p>1/ I build this because i can't see my father loosing all of his money to prevent the short pain from my step-mother because she didn't have a kidney anymore so it's hard for her to survive like that but if we successfully transplant a single kidney to my step-mother it would be the best but again we can't afford that expensive cost because we are poor </p>
+<p>2/ Other reason why we can't afford that expensive cost ? because my father is only a manager in 7 eleven on the phillipines, the salary of 4k a week but that salary is only for the medicine, food and plus the dialysis so that is why we cannot afford that expensive cost and why we need your help because the cost of kidney transplant worth of 1.2million to 1.9million peso and up</p>
+</section>
+
+		</div>
+
+						<div class="column">
+			<h3 >Prove</h3>
+<section>
+<p>What kind of prove i will show? 1/ The medicine receipt, 2/ dialysis receipt </p>
+<p>1/ </p>
+
+<p>2/ </p>
+</section>
+
+		</div>
+								<div class="column">
+			<h3 >How this work?</h3>
+<section> <p>If you going to donate we will collect your email and name but the name is optional so you can donate without it, but you'll be not credited for your heroing to us because we don't know your name, don't worry about your email it will be safe because we won't show to public </p>
+
+</section>
+
+		</div>
+								<div class="column" >
+			<h3 >How to help us</h3>
+<section>
+<p>You can donate to help or share this with your freinds This is the Link >> <button onclick="copy()">Share Us <i class="fa-solid fa-copy" style="color: black;"></i></button></p>
+<input id="input" value="https://donateus.w3spaces.com
+
+
+" readonly="true">
+
+</section>
+
+		</div>
+	</div>
+</div>
+</div>
+<footer id="foot">
+	<div class="content">
+		<h3 id="co">ContactUs</h1>
+	</div>
+</footer>
+<script type="text/javascript">
+	function ab() {
+		document.getElementById('ab').style.color = "green";
+				document.getElementById('h').style.color = "black";
+						document.getElementById('about').style.color = "lime";
+		document.getElementById('cu').style.color = "black";
+				document.getElementById('mes').style.boxShadow = " -15px 15px 10px -15px green"
+				document.getElementById('co').style.color = "white";
+	} 
+		function h() {
+									document.getElementById('about').style.color = "white";
+									document.getElementById('co').style.color = "white";
+		document.getElementById('ab').style.color = "black";
+				document.getElementById('cu').style.color = "black";
+				document.getElementById('h').style.color = "green";
+								document.getElementById('mes').style.boxShadow = " -15px 15px 10px -15px green"
+				document.getElementById('mes').style.boxShadow = " -15px 15px 10px -15px black"
+	} 
+	function cu() {
+		document.getElementById('about').style.color = "white";
+											document.getElementById('co').style.color = "lime";
+		document.getElementById('h').style.color = "black";
+				document.getElementById('ab').style.color = "black";
+				document.getElementById('cu').style.color = "green";
+
+				document.getElementById('mes').style.boxShadow = " -15px 15px 10px -15px black"
+	}
+
+</script>
+<script type="text/javascript">
+
+	function d() {	
+													document.getElementById('donate').style.color = "green";
+		document.getElementById('h').style.color = "black";
+				document.getElementById('ab').style.color = "black";
+
+
+				document.getElementById('mes').style.boxShadow = " -15px 15px 10px -15px black"
+const myTimeout = setTimeout(move, 700);
+function move() {
+window.location = ('loading.html');
+}
+		
+	
+
+
+	}
+</script>
+<script>
+function copy() {
+  // Get the text field
+  var copyText = document.getElementById("input");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+alert('Copy successfully Thank you supporting')
+}
+</script>
+</body>
+
+</html>

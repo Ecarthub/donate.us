@@ -1,0 +1,39 @@
+body {
+	background: #8C52FF;
+
+}
+ 
+
+.loader {
+		position: absolute;
+	top: 40%;
+	left: 50%;
+  border: 3.5px solid #FF66C4;
+  border-radius: 50%;
+  border-top: 3.5px solid #CB6CE6;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+p {
+	margin-left: 5px;
+
+}
+*{
+	text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+color: white;
+}
